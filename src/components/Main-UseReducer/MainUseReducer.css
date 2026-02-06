@@ -1,0 +1,28 @@
+.main__use__reducer--container {
+  min-width: 100vw;
+  min-height: 400px;
+  background-color: #bbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button--add {
+  margin-top: 5px;
+}
+
+.btn-common {
+  font-size: large;
+  background-color: red;
+}
+
+.btn-common:active {
+  box-shadow: inset 10px 10px 10px -5px rgba(0, 0, 0, 0.7);
+}
+
+.input-thoughts {
+  height: 40px;
+  width: 100%;
+}
