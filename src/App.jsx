@@ -5,6 +5,7 @@ import "./App.css";
 
 import MainUserReducer from "./components/Main-UseReducer/MainUseReducer.jsx";
 import MainUseReducer2 from "./components/Main-UseReducer2/MainUseReducer2.jsx";
+import MainUseContext from "./components/Main-UseContext/MainUseContext.jsx";
 
 function App() {
   function reducerFunc(state, action) {
@@ -42,6 +43,7 @@ function App() {
 
   return (
     <>
+      <MainUseContext />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

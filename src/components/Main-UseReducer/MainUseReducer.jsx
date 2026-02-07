@@ -23,7 +23,7 @@ export default function MainUserReducer() {
     }
   };
   const [state, dispatch] = useReducer(reducerFunc, initialStage);
-  console.log(state);
+  //   console.log(state);
   function handleClick(type) {
     if (type === "increment") {
       return dispatch({ type: "increment" });
