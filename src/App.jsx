@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 import MainUserReducer from "./components/Main-UseReducer/MainUseReducer.jsx";
+import MainUseReducer2 from "./components/Main-UseReducer2/MainUseReducer2.jsx";
 
 function App() {
   function reducerFunc(state, action) {
@@ -85,6 +86,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <MainUseReducer2 />
       <MainUserReducer />
     </>
   );

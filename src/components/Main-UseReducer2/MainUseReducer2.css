@@ -1,0 +1,36 @@
+.main__use__reducer__2--container {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+  border: 2px solid white;
+  padding: 20px;
+}
+
+.btn__use__reducer__2 {
+  border: 2px solid white;
+  transition: transform 0.15s ease;
+}
+
+.btn__use__reducer__2:active {
+  transform: scale(0.9);
+}
+
+.main__use__reducer__2--count {
+  padding: 10px;
+  font-size: larger;
+  color: aqua;
+}
+
+.input__main__use__reducer__2--box {
+  height: 30px;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.input__written--text {
+  cursor: pointer;
+}
