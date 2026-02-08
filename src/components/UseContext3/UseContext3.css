@@ -1,0 +1,10 @@
+.use__context__3--container {
+  border: 2px solid white;
+  min-height: 400px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.use__context__3--label {
+  margin-right: 10px;
+}

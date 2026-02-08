@@ -6,6 +6,7 @@ import "./App.css";
 import MainUserReducer from "./components/Main-UseReducer/MainUseReducer.jsx";
 import MainUseReducer2 from "./components/Main-UseReducer2/MainUseReducer2.jsx";
 import MainUseContext from "./components/Main-UseContext/MainUseContext.jsx";
+import UseContext1 from "./components/UseContext1/UseContext1.jsx";
 
 function App() {
   function reducerFunc(state, action) {
@@ -43,6 +44,7 @@ function App() {
 
   return (
     <>
+      <UseContext1 />
       <MainUseContext />
       <div>
         <a href="https://vite.dev" target="_blank">

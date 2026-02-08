@@ -1,0 +1,8 @@
+.use__context__2--container {
+  border: 2px solid white;
+  width: 90%;
+  min-height: 400px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
