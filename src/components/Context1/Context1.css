@@ -1,0 +1,26 @@
+.context__1--container {
+  min-height: 400px;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.btn-useRef {
+  margin-top: 10px;
+  border: 2px solid yellow;
+  transition: transform 0.1s ease;
+}
+
+.btn-useRef:active {
+  transform: translateY(2px);
+}
+
+.btn-maths {
+  margin: 5px;
+  border: 2px solid orange;
+  transition: transform 0.2s ease;
+}
+
+.btn-maths:active {
+  transform: translateY(5px);
+}

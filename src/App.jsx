@@ -7,6 +7,7 @@ import MainUserReducer from "./components/Main-UseReducer/MainUseReducer.jsx";
 import MainUseReducer2 from "./components/Main-UseReducer2/MainUseReducer2.jsx";
 import MainUseContext from "./components/Main-UseContext/MainUseContext.jsx";
 import UseContext1 from "./components/UseContext1/UseContext1.jsx";
+import Context1 from "./components/Context1/Context1.jsx";
 
 function App() {
   function reducerFunc(state, action) {
@@ -44,6 +45,7 @@ function App() {
 
   return (
     <>
+      <Context1 />
       <UseContext1 />
       <MainUseContext />
       <div>
