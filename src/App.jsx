@@ -8,6 +8,7 @@ import MainUseReducer2 from "./components/Main-UseReducer2/MainUseReducer2.jsx";
 import MainUseContext from "./components/Main-UseContext/MainUseContext.jsx";
 import UseContext1 from "./components/UseContext1/UseContext1.jsx";
 import Context1 from "./components/Context1/Context1.jsx";
+import UseRef1 from "./components/UseRef1/UseRef1.jsx";
 
 function App() {
   function reducerFunc(state, action) {
@@ -29,10 +30,6 @@ function App() {
     thoughts: "",
     isColor: false,
   });
-  // console.log("state is - ", state);
-  // const [count, setCount] = useState(0);
-  // const [thoughts, setThoughts] = useState("");
-  // const [isColor, setIsColor] = useState(false);
 
   function handleOnChange(event) {
     // setThoughts(event.target.value);
@@ -45,6 +42,7 @@ function App() {
 
   return (
     <>
+      <UseRef1 />
       <Context1 />
       <UseContext1 />
       <MainUseContext />

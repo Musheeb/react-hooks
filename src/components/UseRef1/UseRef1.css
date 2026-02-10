@@ -1,0 +1,19 @@
+.use__ref__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid wheat;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btns-rupdol {
+  border: 2px solid wheat;
+  transition: transform 0.2s ease;
+}
+
+.btns-rupdol:active {
+  transform: translateY(5px);
+}
