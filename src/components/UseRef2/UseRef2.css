@@ -1,0 +1,21 @@
+.use__ref__2--container {
+  min-height: 400px;
+  border: 2px solid yellow;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.use__ref__2--btn {
+  border: 2px solid yellow;
+  font-family: sans-serif;
+  transition: transform 0.2s ease;
+}
+
+.use__ref__2--btn:active {
+  transform: translateY(3px);
+}

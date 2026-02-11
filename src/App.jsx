@@ -9,6 +9,7 @@ import MainUseContext from "./components/Main-UseContext/MainUseContext.jsx";
 import UseContext1 from "./components/UseContext1/UseContext1.jsx";
 import Context1 from "./components/Context1/Context1.jsx";
 import UseRef1 from "./components/UseRef1/UseRef1.jsx";
+import UseRef2 from "./components/UseRef2/UseRef2.jsx";
 
 function App() {
   function reducerFunc(state, action) {
@@ -42,6 +43,7 @@ function App() {
 
   return (
     <>
+      <UseRef2 />
       <UseRef1 />
       <Context1 />
       <UseContext1 />
