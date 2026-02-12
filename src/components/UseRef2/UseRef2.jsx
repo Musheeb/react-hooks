@@ -6,7 +6,7 @@ export default function UseRef2() {
   const [selected, setSelected] = useState(false);
   const inputOne = useRef(null);
   const inputTwo = useRef(null);
-  console.log(selected);
+  //   console.log(selected);
   function handleChangeColors() {
     setSelected((prevVal) => !prevVal);
     inputOne.current.style.backgroundColor = "yellow";

@@ -1,0 +1,6 @@
+.use__context__new--container {
+  min-height: 400px;
+  border: 2px solid red;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}

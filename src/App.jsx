@@ -7,9 +7,11 @@ import MainUserReducer from "./components/Main-UseReducer/MainUseReducer.jsx";
 import MainUseReducer2 from "./components/Main-UseReducer2/MainUseReducer2.jsx";
 import MainUseContext from "./components/Main-UseContext/MainUseContext.jsx";
 import UseContext1 from "./components/UseContext1/UseContext1.jsx";
+import UseContextNew from "./components/UseContextNew/UseContextNew.jsx";
 import Context1 from "./components/Context1/Context1.jsx";
 import UseRef1 from "./components/UseRef1/UseRef1.jsx";
 import UseRef2 from "./components/UseRef2/UseRef2.jsx";
+import UseMemo1 from "./components/UseMemo1/UseMemo1.jsx";
 
 function App() {
   function reducerFunc(state, action) {
@@ -43,6 +45,8 @@ function App() {
 
   return (
     <>
+      <UseContextNew />
+      <UseMemo1 />
       <UseRef2 />
       <UseRef1 />
       <Context1 />
