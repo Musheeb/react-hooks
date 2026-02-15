@@ -1,0 +1,11 @@
+.use__memo__2--container {
+  min-height: 400px;
+  border: 2px solid aqua;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -26,6 +26,7 @@ export default function UseContextNew3() {
       <p>Age: {age}</p>
       <p>Profession: {profession}</p>
       <input
+        id="input1"
         type="number"
         placeholder="enter you number..."
         value={myNumber}
@@ -33,6 +34,7 @@ export default function UseContextNew3() {
       />
       <p>{fibNumber ? fibNumber : "--"}</p>
       <input
+        id="input2"
         type="text"
         placeholder="enter something..."
         value={myText}
