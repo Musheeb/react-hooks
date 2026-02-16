@@ -1,0 +1,19 @@
+.use__callback__2--container {
+  min-height: 400px;
+  border: 2px solid lightgreen;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.shuffle--btn {
+  margin-right: 10px;
+  border: 2px solid salmon;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: transform 0.2s ease;
+}
+
+.shuffle--btn:active {
+  transform: translateY(4px);
+}

@@ -7,7 +7,7 @@ const fib = (n) => {
 };
 
 export default function UseMemo2() {
-  console.log("Use memo component is re-renrederd");
+  //   console.log("Use memo component is re-renrederd");
   const [myNumber, setMyNumber] = useState("");
   const [myText, setMyText] = useState("");
   const fibNumber = useMemo(() => fib(myNumber), [myNumber]);

@@ -13,6 +13,8 @@ import UseRef1 from "./components/UseRef1/UseRef1.jsx";
 import UseRef2 from "./components/UseRef2/UseRef2.jsx";
 import UseMemo1 from "./components/UseMemo1/UseMemo1.jsx";
 import UseMemo2 from "./components/UseMemo2/UseMemo2.jsx";
+import UsecallBack1 from "./components/UseCallback1/UseCallback1.jsx";
+import UseCallback2 from "./components/UseCallback2/UseCallback2.jsx";
 
 function App() {
   function reducerFunc(state, action) {
@@ -46,6 +48,8 @@ function App() {
 
   return (
     <>
+      <UseCallback2 />
+      <UsecallBack1 />
       <UseMemo2 />
       <UseContextNew />
       <UseMemo1 />

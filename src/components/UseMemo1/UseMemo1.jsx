@@ -20,7 +20,7 @@ export default function UseMemo1() {
   //   const fibNumber = useMemo(() => fib(num), [num]);
   //   const fibNumber = useMemo(() => fib(num), [num]);
   const fibNumber = useMemo(() => fib(num), [num]);
-  console.log("Component Re-rendered");
+  //   console.log("Component Re-rendered");
   return (
     <div className="use__memo__1--container">
       <h2>Use memo example</h2>

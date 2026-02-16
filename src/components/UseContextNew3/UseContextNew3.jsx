@@ -8,7 +8,7 @@ const fib = (n) => {
 };
 
 export default function UseContextNew3() {
-  console.log("Child component re-rendered");
+  //   console.log("Child component re-rendered");
   const [myNumber, setMyNumber] = useState("");
   const [myText, setMyText] = useState("");
   const { username, age, profession } = useContext(CreatedContext);
