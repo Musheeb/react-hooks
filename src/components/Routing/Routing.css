@@ -1,0 +1,6 @@
+.routing--container {
+  min-height: 400px;
+  border: 2px solid peru;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
