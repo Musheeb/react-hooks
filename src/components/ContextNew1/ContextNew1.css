@@ -1,0 +1,20 @@
+.context__new__1--container {
+  min-height: 400px;
+  border: 2px solid bisque;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.context__new__1__content__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.eligibility--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
